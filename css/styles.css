@@ -30,6 +30,7 @@ button {
 body {
   font-family: var(--primary-font), sans-serif;
   background-color: var(--primary-text-color-theme-light);
+  letter-spacing: 0.03em;
 }
 /* HEADER */
 .visually-hidden {
@@ -49,7 +50,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   color: var(--black-color);
 }
 .logo-item {
@@ -57,7 +58,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   color: var(--accent-color);
 }
 .menu-link {
@@ -111,8 +112,7 @@ body {
   height: 50px;
   left: 692px;
   top: 430px;
-  background: var(--accent-color);
-
+  background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -121,27 +121,31 @@ body {
   border: none;
   border-radius: 4px;
 }
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background: var(--accent-color);
+}
 /* soft=skills */
 .soft-skills {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--grey-color);
 }
 .soft-skills-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
   color: var(--grey-color);
 }
 .soft-skills-link {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color-theme-light);
 }
 .job {
@@ -149,7 +153,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--grey-color);
 }
 .image-work {
@@ -161,7 +165,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--grey-color);
 }
 .image-team {
@@ -172,14 +176,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+
   color: var(--grey-color);
 }
 .job-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color-theme-light);
 }
 .team-box {
@@ -197,7 +201,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+
   color: var(--primary-text-color-theme-light);
 }
 .maps-list {
@@ -205,7 +209,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: var(--primary-text-color-theme-light);
 }
 .mail-footer,
@@ -214,7 +218,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .contact-phone-footer:focus,
@@ -233,7 +237,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
+
   border-radius: 4px;
   border: none;
   color: var(--grey-color);
@@ -262,6 +266,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color-theme-light);
 }
